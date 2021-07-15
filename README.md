@@ -22,5 +22,3 @@
 - [] Possibilitar a usuário armazenar cidades preferidas/padrão
 - [] Melhorar interface para web
 - [] Hospedar aplicação no Netlify
-
-openSUSE KDE Leap
