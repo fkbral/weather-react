@@ -29,6 +29,7 @@ body {
 @media screen and (max-width: 420px) {
   .App button {
     flex: 1;
+    margin-top: 42px;
   }
 
   h3 {
