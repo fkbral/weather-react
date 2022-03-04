@@ -1,5 +1,10 @@
 body {
   background: linear-gradient(rgb(90, 100, 133), rgb(26, 58, 160));
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App button, .App input {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App {
@@ -19,6 +24,16 @@ body {
   align-items: center;
   padding: 8px 12px;
   height: 36px;
+}
+
+@media screen and (max-width: 420px) {
+  .App button {
+    flex: 1;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
 }
 
 .App input {
@@ -45,6 +60,7 @@ body {
 .App header form {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .App button {
